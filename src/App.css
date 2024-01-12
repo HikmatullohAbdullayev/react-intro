@@ -20,18 +20,20 @@ a{
     text-decoration: none;
 }
 body{
+  
   background-color: rgb(180, 52, 73);
     margin: 0;
     padding: 0;
 }
 .container{
-  margin: auto;
+  margin-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   width: 100vw;
   text-align: center;
 }
 .title{
+  font-size: 55px;
   color:whitesmoke;
 }
 .content{
@@ -60,14 +62,17 @@ transition: 0.2s ease-in-out;
   background-color:aquamarine;
 }
 .subTitle {
+  font-size: 26px;
 padding-top: 10px;
 padding-bottom: 10px;
 
 }
 .list__item {
+  font-size: 18px;
   padding: 5px 0;
   color: rgb(225, 171, 171);
 }
 .active {
+  font-size: 20px;
   color: black;
 }
