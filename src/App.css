@@ -36,27 +36,38 @@ body{
 }
 .content{
   margin: auto;
+  margin-top: 50px;
   max-width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: end;
-  
+  flex-wrap: wrap;
   gap: 20px;
 
 }
 
 
 .list {
+  width: 220px;
   background-color: white;
   padding: 18px 25px;
   line-height: 36px;
 border-radius: 10px;
+transition: 0.2s ease-in-out;
 
 }
+.list:hover{
+  background-color:aquamarine;
+}
 .subTitle {
-  
+padding-top: 10px;
+padding-bottom: 10px;
+
 }
 .list__item {
+  padding: 5px 0;
+  color: rgb(225, 171, 171);
 }
 .active {
+  color: black;
 }
